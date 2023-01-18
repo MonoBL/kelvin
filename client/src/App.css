@@ -1,0 +1,236 @@
+.App::-webkit-scrollbar{
+  display: none;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  background-color: #282c34;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.modal-container{
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 259px;
+  height: 100vh;
+  width: 90vw;
+}
+
+.modal{
+  background-color: rgb(255, 255, 255) ;
+  color: black;
+  border-radius: 5px;
+  padding: 30px 9px;
+  width: 1075px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  margin-left: 15px;
+  font-size: 20px;
+  opacity: 0.7;
+  text-align: left;
+}
+
+button {
+  background-color: #47a386;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 25px;
+  cursor:pointer;
+
+}
+
+.modal-conteiner.show {
+  display: none;
+}
+
+.menuLateral{
+  width:260px;
+  background-color: #202123;
+  padding: 10px;
+}
+
+.boxChat{
+  flex: 1;
+  background-color: #343541;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.button-menuLateral{
+  padding: 12px;
+  border: 1px solid hsla(0,0%,100%,.2);
+  border-radius: 5px;
+  text-align: left;
+  transition: ease 0.25s all;
+  cursor: pointer;
+}
+
+.button-menuLateral span{
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.button-menuLateral:hover{
+  background-color: rgba(255, 255, 255, 0.085);
+}
+
+.button-menuLateral-home{
+  padding: 12px;
+  border: 1px solid hsla(0,0%,100%,.2);
+  border-radius: 5px;
+  margin-top: 806px;
+  text-align: left;
+  transition: ease 0.25s all;
+  cursor: pointer;
+}
+
+.button-menuLateral-home span{
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.button-menuLateral-home:hover{
+  background-color: rgba(255, 255, 255, 0.085);
+}
+
+
+.chat-input-holder{
+  padding: 55px;
+  position: fixed ;
+  background-image: linear-gradient(180deg,rgba(0, 47, 255, 0),#353740 58.85%);
+  bottom: 0;
+  left: 259px;
+  right: 0;
+}
+.chat-input-areaTexto{
+  background-color: #40414f;
+  width: 45%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 12px;
+  color: white;
+  font-size: 1.05em;
+}
+
+.logs-chat{
+  text-align: left;
+  position: relative;
+  margin-bottom: 145px;
+}
+
+.box-fim{
+  width: 100%; 
+  height: 200px; 
+  background-color: #343541; 
+}
+
+
+
+.menssagem-chat.kelvin{
+  background-color: #444654;
+}
+.menssagem-chat-centro{
+  padding: 12px;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto-perfil{
+  background-color: #5436DA;
+  border-radius: 10%;
+  width: 40px;
+  height: 40px;
+}
+.foto-perfil.kelvin{
+  background-color: #0da37f;
+  border-radius: 10%;
+  width: 40px;
+  height: 40px;
+}
+
+.menssagem{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
