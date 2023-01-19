@@ -8,7 +8,7 @@ antiCrash() // Inicia o antiCrash
 
 const configuration = new Configuration({ // Cria a configuração da API
     organization: "org-AwcNm7fQdsjklnYNk4FcQQT1", // Organização
-    apiKey: "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", // API Key
+    apiKey: "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", // API Key
 });
 const openai = new OpenAIApi(configuration); // Cria a API
 
@@ -35,5 +35,5 @@ const openai = new OpenAIApi(configuration); // Cria a API
     
 
     app.listen(port, () => { // Inicia o servidor
-        console.log(`O servidor está a correr neste endereço http://localhost:${port}`) // Mostra a mensagem no console
+        console.log(`O servidor está a correr neste endereço http://159.65.56.217:${port}`) // Mostra a mensagem no console
     });
